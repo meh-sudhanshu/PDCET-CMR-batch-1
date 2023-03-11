@@ -16,7 +16,6 @@ public class Main {
         start = deletFromEnd(start);
         printList(start);
     }
-
     public static Node deletFromEnd(Node start){
         if(start == null){
             System.out.println("empty list");
